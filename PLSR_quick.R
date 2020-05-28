@@ -1,12 +1,12 @@
 ###################################################################
 ### Building a QUICK PLSR model to predict traits from spectra ####
-### to see if data are useful, without iterations, uncertainty calcs
+### to see if data are useful, without iterations, uncertainty calculations
 ### use PLSR_iter for final models ################################
 ### Anna Schweiger March 2016 
 
 library(pls)
 
-dada <- read.csv("./example_dat.csv")
+dada <- read.csv("./example_data_for_model.csv")
 ###  Spectra are vector normalized using R package spectrolab:
 ### Meireles, J. E., Schweiger, A. K. & Cavender-Bares, J. spectrolab: Class and Methods for Hyperspectral Data. R package version 0.0.2.
 ### spectrolab::normalize()
