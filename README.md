@@ -1,10 +1,6 @@
 # PLSR_DOB
-<<<<<<< HEAD
 PLSR models for predicting foliar carbon and nitrogen content from fresh leaves, carbon fractions and pigment concentrations from fresh leaves
 (measured in-situ)
-=======
-PLSR models for predicting foliar carbon and nitrogen content, carbon fractions and pigment concentrations from fresh leaves (measured in-situ)
->>>>>>> b482bd30e4e9005a9ac7e7bf4dc1ae73e27951ac
 
 ## Contains:
 1) PLSR model: final model coefficients (_coeffMEAN), coefficient statistics (_coeffSTD), graphical output model statistics (.jpg)
