@@ -4,7 +4,7 @@
 library(spectrolab)
 
 ### example spectra NOT vector normalized
-spec <- read.csv("./example_for_preds.csv", as.is = T)
+spec <- read.csv("./example_data_for_preds.csv", as.is = T)
 
 ### make spectra object
 colnames(spec) <- gsub("X","", colnames(spec)) # colnames need to represent wavelengths

@@ -11,7 +11,7 @@ library(pls)
 library(reshape)
 library(agricolae)
 
-dat <- read.csv("./example_dat.csv") 
+dat <- read.csv("./example_data_for_model.csv") 
 ###  Spectra are vector normalized using R package spectrolab:
 ### Meireles, J. E., Schweiger, A. K. & Cavender-Bares, J. spectrolab: Class and Methods for Hyperspectral Data. R package version 0.0.2.
 ### spectrolab::normalize()
